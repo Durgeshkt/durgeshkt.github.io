@@ -6,7 +6,8 @@
     <link rel="icon" href="assets/favicon.ico">
 
     <title>Terminal Portfolio - Durgeshkt</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="css/bulma.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -20,7 +21,7 @@
             <div class="sidebar-header has-text-centered">
               <img src="images/DP.jpeg" alt="Avatar" class="sidebar-image">
               <h2 class="header-name">Durgeshkt</h2>
-              <h5>Cyber Security Analyst<br><br> Ethical Hacker | <span style="color: red;">Red Teaming</span><br></h5>
+              <h5>Cyber Security Analyst<br><br> Ethical Hacker <br><br></h5>
               <div class="social-icons">
                 <a href="https://www.linkedin.com/in/Durgeshkt/"><i class="fab fa-linkedin icon"></i></a>
               </div>
@@ -38,13 +39,13 @@
             <div class="terminal-window primary-bg" onclick="document.getElementById('terminalBody').focus();">
               <div class="terminal-output" id="terminalOutput">
                 <div class="terminal-line">
-                  <span class="help-msg">Welcome to terminal world — Type <span class="code">help</span>
+                  <span class="help-msg">Welcome to my Terminal world — Type <span class="code">help</span>
                     for a list of supported commands.</span>
                 </div>
               </div>
               <div class="terminal-line">
                 <span class="success">➜</span> <span class="directory">~</span> <span class="user-input" id="userInput"></span>
-                <input type="text" id="terminalBody" class="dummy-keyboard">
+                <textarea id="terminalBody" class="dummy-keyboard" rows="1" autocomplete="off"></textarea>
               </div>
             </div>
           </div>
